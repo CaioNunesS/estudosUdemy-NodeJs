@@ -1,0 +1,21 @@
+{
+  "name": "projeto-guiaperguntas",
+  "version": "1.0.0",
+  "description": "Uma plataforma de perguntas e respostas tipo Yahoo respostas.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Caio Nunes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.0-alpha1",
+    "ejs": "^3.1.8",
+    "ejs-lint": "^2.0.0",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.21",
+    "sequelize": "^6.31.0"
+  }
+}
